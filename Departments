@@ -1,0 +1,32 @@
+pipeline {
+agent any
+
+stages {
+stage('One') {
+steps {
+echo 'Innovation'
+}
+}
+stage('Two') {
+steps {
+echo 'Integration'
+}
+}
+stage('Three') {
+steps {
+echo 'Development'
+}
+}
+stage('Four') {
+steps {
+echo 'Devops'
+}
+}
+stage('Five') {
+steps {
+echo 'Sales'
+}
+}
+
+}
+}
